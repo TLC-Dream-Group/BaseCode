@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BaseCode</string>
+    <string name="share">Share</string>
+    <string name="txt_no_mail_found">Email not found</string>
+</resources>
