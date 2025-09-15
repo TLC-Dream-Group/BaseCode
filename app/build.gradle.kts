@@ -48,6 +48,8 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -60,4 +62,10 @@ dependencies {
     implementation(libs.androidx.room.common)
     implementation(libs.androidx.room.ktx)
     ksp(libs.androidx.room.compiler)
+    //
+    implementation(libs.material.v1130)
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.androidx.viewpager2)
+    implementation(libs.glide)
+    ksp(libs.compiler)
 }

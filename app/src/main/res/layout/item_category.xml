@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="84dp"
+    android:layout_height="64dp"
+    android:layout_marginStart="12dp"
+    android:padding="6dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="0dp"
+        app:strokeColor="@android:color/transparent"
+        app:strokeWidth="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivCategory"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/tvCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abstract"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <View
+        android:id="@+id/selectedBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_launcher_foreground"
+        android:visibility="gone"/>
+</FrameLayout>
