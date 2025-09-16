@@ -46,21 +46,21 @@ class MainActivity : AppBaseActivity() {
     private val allTrending by lazy {
         listOf(
             Wallpaper(1, R.drawable.sample_banner_1),
-            Wallpaper(2, R.drawable.sample_banner_1),
-            Wallpaper(3, R.drawable.sample_banner_1),
-            Wallpaper(4, R.drawable.sample_banner_1),
-            Wallpaper(5, R.drawable.sample_banner_1),
-            Wallpaper(6, R.drawable.sample_banner_1)
+            Wallpaper(2, R.drawable.b2),
+            Wallpaper(3, R.drawable.b3),
+            Wallpaper(4, R.drawable.b4),
+            Wallpaper(5, R.drawable.b5),
+            Wallpaper(6, R.drawable.b6)
         )
     }
     private val allStatic by lazy {
         listOf(
-            Wallpaper(1, R.drawable.sample_banner_2),
-            Wallpaper(2, R.drawable.sample_banner_2),
-            Wallpaper(3, R.drawable.sample_banner_2),
-            Wallpaper(4, R.drawable.sample_banner_2),
-            Wallpaper(5, R.drawable.sample_banner_2),
-            Wallpaper(6, R.drawable.sample_banner_2)
+            Wallpaper(1, R.drawable.h1),
+            Wallpaper(2, R.drawable.b6),
+            Wallpaper(3, R.drawable.b3),
+            Wallpaper(4, R.drawable.b2),
+            Wallpaper(5, R.drawable.b4),
+            Wallpaper(6, R.drawable.b5)
         )
     }
     private val allDynamic by lazy {
