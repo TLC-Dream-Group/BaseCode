@@ -2,7 +2,9 @@ package com.appnew.basecode.app
 
 import android.app.Application
 import android.content.Context
+import dagger.hilt.android.HiltAndroidApp
 
+@HiltAndroidApp
 class BaseApplication : Application() {
 
     override fun onCreate() {
